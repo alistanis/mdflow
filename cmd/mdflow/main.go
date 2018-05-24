@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
+
+	"github.com/alistanis/mdflow"
 )
 
 func main() {
@@ -13,5 +15,5 @@ func main() {
 }
 
 func run() error {
-	return nil
+	return mdflow.ExecuteRoot()
 }
